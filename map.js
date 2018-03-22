@@ -20,8 +20,8 @@ var bills = [50.23, 19.12, 34.01,
 ];
 
 
-var improvedDonuts = bills.map(function(donut) {
+var totals = bills.map(function(donut) {
   donut = donut+0.15*donut;
     return Number(donut.toFixed(2));
 });
-console.log(improvedDonuts);
+console.log(totals);
